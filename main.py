@@ -20,5 +20,4 @@ def transcribe():
     return jsonify({'template': template})
 
 if __name__ == "__main__":
-    port = os.getenv('PORT', 5000)
-    app.run(debug=True, port=port)
+    app.run(debug=True)
